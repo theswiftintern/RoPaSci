@@ -88,7 +88,7 @@ struct ContentView: View {
     }
     
     var hasGameEnded: Bool {
-        if(questionCounter == 2) {
+        if(questionCounter < 10) {
             return true
         } else {
             return false
